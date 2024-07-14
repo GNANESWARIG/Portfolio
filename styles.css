@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Profile Picture (Logo) */
+.logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    border-radius: 50%; /* Creates a circular shape */
+    margin-left: 20px; /* Adds space between logo and navigation */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Project Page Specific Styles */
+.projects {
+    padding: 20px 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    flex-shrink: 0;
+    width: 250px; /* Adjust the width of the project images */
+    height: 150px; /* Adjust the height of the project images */
+    margin-right: 30px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Adds a slight rounding to the corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.project-info {
+    flex-grow: 1;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+}
+
+.project p {
+    color: #666;
+}
